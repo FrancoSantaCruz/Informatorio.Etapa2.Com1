@@ -1,5 +1,4 @@
-# Informatorio | 2da Etapa "Desarrollo Web". <sup>Comisión 1</sup>
-
+# [Informatorio]<sup>Comisión 1</sup> | 2da Etapa "Desarrollo Web". 
 ### En este repositorio estaré subiendo el código hecho en clase con el objetivo de facilitar el repaso o solventar dudas.
 ‎ 
 ‎ 
