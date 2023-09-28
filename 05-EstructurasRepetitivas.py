@@ -126,3 +126,100 @@
 # - El conjunto de acciones (bucle) se ejecutan MIENTRAS la evaluación de la condición
 # devuelva un resultado verdadero (True)
 # - El ciclo se puede ejecutar 0 o más veces.
+
+# REFRESCANDO LA MEMORIA:
+# Estructuras de control: 
+# 1) Condicionales (if, elif, else)
+# 2) Repetitivas
+#    a) While
+#           i- Podemos iterar 0 o indefinida cantidad de veces.
+#    b) For
+
+# Mientras
+# while condicion:
+    # accion
+    # accion
+    # accion
+    # accion
+    # contador/bandera
+
+# ----FOR
+
+# Estructura:
+
+# for variable in secuencia:
+#       acción
+#       acción
+
+# i=0
+# while i<len(numeros):
+#     print(numeros[i])
+#     i+=1
+
+# Ejemplo con Listas:
+# numeros = [4, 92, 52, 18, 30, 75]
+# for num in numeros: 
+#     print(num)
+
+
+# Ejemplo con Strings:
+# palabra = "Informatorio".lower() 
+# cant_vocales = 0
+# for letra in palabra:
+#     if(letra == "a" or letra == "o" or letra == "i" or letra == "e" or letra == "u"):
+#         cant_vocales+=1
+#     print(letra)
+# print(f"La palabra {palabra} tiene {cant_vocales} vocales.")
+
+
+# Ejemplo con Diccionario: 
+# estudiantes = {
+#     "Luis" : "Dellamea",
+#     "Galo" : "Guini",
+#     "Esteban" : "Ortiz"
+# }
+
+# for estudiante in estudiantes:
+#     print(estudiante)
+
+# for estudiante in estudiantes.values():
+#     print(estudiante)
+
+# for nombre, apellido in estudiantes.items():
+#     print(nombre, apellido)
+
+
+# Ejemplo con un rango de numeros: 
+# range()
+
+# Pedi al usuario un numero e imprimi todos los valores incluyendo el numero ingresado.
+# limite = int(input("Ingresar un numero:"))
+# for i in range(1, limite+1):
+#     print(i)
+
+# break y Continue
+# Nos ayuda a controlar el flujo de nuestra estructura repetitiva. 
+
+# Break: 
+
+# numeros = [1, 2, 3, 4, 5, 6]
+
+# for num in numeros:
+#     if(num == 3):
+#         break
+#     print(num)
+
+# num_buscar = int(input("Ingresa el numero que queres buscar en la lista: "))
+
+# for num in numeros:
+#     print(num)
+#     if num == num_buscar:
+#         print("SI SE ENCUENTRA EL NUMERO")
+#         break
+
+# Continue:
+# numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# for num in numeros: 
+#     if num%2==0: 
+#         continue
+#     print(num)
