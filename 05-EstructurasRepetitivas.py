@@ -1,81 +1,76 @@
 # CTRL + C CORTA LA EJECUCIÓN DEL PROGRAMA.
 
-# BUCLE llamamos al bloque de código que va a ejecutar el for o while. 
-# print("Hola")
-# resultado = 2*80
-# print("como estas?")
+# BUCLE: llamamos al bloque de código que va a ejecutar el for o while. 
 # A cada ejecución de bucle le vamos a llamar ITERACION
 
 # -----WHILE -> Mientras
 # También requerimos de una condición para ejecutar. 
-# El bucle while lo utilizamos cuando queremos ejecutar un bloque de código
-# MIENTRAS se esté cumpliendo la condición. Una vez que ya no se cumpla, deja de iterar.
+# El bucle while lo utilizamos cuando queremos ejecutar un bloque de código MIENTRAS se esté cumpliendo la condición. 
+# Una vez que ya no se cumpla, deja de iterar.
 
 # Estructura: 
-
 # while <condicion>:
 #       Acción
 #       Acción
 #       Acción
 #       contador
 
-# Ejemplo:
+# Ejemplo N°1:
 
-# Contador
-# i = 1
+# i = 1 #Contador
+
 # Mientras i sea menor o igual a 5, ejecuta el print con el valor de i.
-# palabra = "Pablo Ivan"
-# while i<=20:
+# while i<=5:
     # print(palabra)
-    # i = i+1
     # i += 1
-
 # print("Terminó de imprimir :D")
 
-# Encontrar todos los numeros PARES que estan en esta lista. 
-# indice:    0    1    2   3    4  5 
+
+# Ejemplo N°2: Encontrar todos los numeros PARES que estan en esta lista. 
+
 # una_lista = [42, 564, 12, 969, 42, 92, 23, 75]
-# i = 0
-# pares = []
 # impares = []
+# pares = []
+# i = 0
 
 # while i < len(una_lista): 
-#     # print(f"Vuelta n°{i}.")
+#     print(f"Vuelta n°{i}.")
 
 #     if una_lista[i]%2 == 0: #Si el numero es par. 
 #         pares.append(una_lista[i])
 #     else:
 #         impares.append(una_lista[i])
-
 #     i+=1
 
 # print(pares)
 # print(impares)
 
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Al contador se los puede encontrar como Variable especial. 
 # 3 tipos de variables especiales
 #       - Contador.
 #       - Acumulador.
 #       - Bandera.
 
-# Acumulador
+# Acumulador:
 
 # una_lista = [2, 10, 5, 4, 8]
 # i=0
 # acumulador = 0
 
 # while i<len(una_lista):
-#     print(f"Vuelta n°{i}")
-#     print(f"valor de la lista: {una_lista[i]}")
 #     acumulador = acumulador + una_lista[i] #el acumulador está acumulando la suma de los elementos de mi lista.
-#     print(f"acumulador: {acumulador}")
-
 #     i+=1 #el contador me está controlando la cantidad de iteraciones.
 
 # print(acumulador)
 
-# Bandera -> True o False.
 
+
+
+# Bandera (True or False)
+
+# Ejemplo N°1:
 # Quiero ingresar por teclado y verificar si el numero ingresado se encuentra en la lista. 
 # una_lista = [42, 564, 12, 969, 67, 92, 23, 75]
 
@@ -95,7 +90,8 @@
 # else: 
 #     print("El numero NO se encuentra en la lista. :( ")
     
-# Ejemplo N°2
+
+# Ejemplo N°2:
 # bandera = True
 
 # while bandera==True:
@@ -105,6 +101,7 @@
 #         bandera = False
 #     else: 
 #         print("Datos incorrectos, intentelo nuevamente!.")
+
 
 # Ejemplo N°3
 
@@ -120,10 +117,12 @@
 # else: 
 #     print("Credenciales ingresadas correctas.")
 
+
+
 # Caracteristicas que podemos concluir de la estructura repetitiva WHILE: 
 
-# -No sabemos cuantas veces se va a iterar el bucle. 
-# -El final del bucle está controlado por una condición. 
-# -El conjunto de acciones (bucle) se ejecutan MIENTRAS la evaluación de la condición
+# - No sabemos cuantas veces se va a iterar el bucle. 
+# - El final del bucle está controlado por una condición. 
+# - El conjunto de acciones (bucle) se ejecutan MIENTRAS la evaluación de la condición
 # devuelva un resultado verdadero (True)
-# -El ciclo se puede ejecutar 0 o más veces.
+# - El ciclo se puede ejecutar 0 o más veces.
