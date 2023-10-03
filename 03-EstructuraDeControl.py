@@ -37,8 +37,8 @@
 
 # Condicionales con operadores lógicos: 
 
-# && -> "y lógico" conjunción   -> and 
-# || -> "ó lógico" disyunción   -> or
+# && -> "y lógico" conjunción   -> and
+# || -> "ó lógico" disyunción   -> or 
 # ! -> negación                 -> not
 
 # edad = int(input("Ingresa tu edad para corroborar: "))
@@ -49,7 +49,7 @@
 # if edad>=16 and edad<24 and edad!=20:
 #     print("Votar es opcional pero podes.")
 # 16 y 24 pero no puede ser 20
-    
+ 
 #   True     o     True     -> True   -> Se tiene que ejecutar el print. 
 #   True     o     False    -> True   -> Se tiene que ejecutar el print.
 #   False    o     True     -> True   -> Se tiene que ejecutar el print.
@@ -84,7 +84,7 @@
 
 # nota = int(input("Ingresar nota del Alumno: "))
 
-# if nota<6: #0 5
+# if nota<6:
 #     print("Eu no estas practicando los ejercicios del CENIT. Repasa para la proxima")
 # else: 
 #     if nota<8: #6 y 7
