@@ -50,7 +50,6 @@
 # print(set)
 # Diccionarios.
 
-
 # CALCULADORA
 
 # print("Ingresar la operación que desea realizar.")
@@ -76,3 +75,4 @@
 
 
 # print(f"El resultado de la operacion \"{opcion}\" es {resultado}")
+

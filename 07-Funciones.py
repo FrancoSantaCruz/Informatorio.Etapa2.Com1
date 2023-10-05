@@ -112,10 +112,29 @@
 #     # Estructura de datos (tuplas)
 #     for valor in valores: #aprendimos a recorrer estructuras de datos
 #         resultado+= valor #Estructuras repetitivas aprendimos a hacer acumuladores, contadores y banderas
-
+ 
 #     for profesion, nombre in usuario.items():
 #         print(f"Bienvenido {profesion} {nombre}!. El resultado de la suma es {resultado}.")
 
 
 # calculadora(2, 2, 2, 4, 6, 2, 6, alumno="Gustavo")
+ 
+# Funciones
+# Estructura
+
+# def sumar(*valores):
+#     resultado = 0
+#     # valores = ( 4, 8, 6, 1, 6, 2, 2, 1, 5 )
+#     for valor in valores:
+#         # resultado += valor
+#         resultado = resultado + valor
+#     return resultado
+
+
+# res = sumar( 1, 2, 3, 4, 5, 1, 2, -2)
+# print(f"El resultado de la suma es: {res}")
+
+# Módulos.
+
+
 
